@@ -3,14 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.zj</groupId>
+        <artifactId>haizei</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>org.zj</groupId>
-    <artifactId>ITStudy</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>first</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>sparkStudy</module>
-        <module>haizei</module>
+        <module>growingio-spring-boot-starter</module>
+        <module>growingio-test</module>
     </modules>
 
     <properties>
@@ -18,5 +21,7 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+
 
 </project>
